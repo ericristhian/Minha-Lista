@@ -1,0 +1,4 @@
+Abra o .gitignore do seu projeto e garanta que estas linhas existem (adicione ao final se faltarem):
+
+# Configuração específica do projeto (nunca versionar)
+supabase_config.json
