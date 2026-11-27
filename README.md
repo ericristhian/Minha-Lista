@@ -6,7 +6,7 @@
 
 Aplicativo de lista pessoal com **login e CRUD na nuvem**, em que cada usuário só acessa os próprios dados. Projeto acadêmico da disciplina **Desenvolvimento de Dispositivos Móveis**.
 
-**Demonstração online:** https://ericristhian.github.io/minha-lista/
+**Demonstração online:** https://ericristhian.github.io/Minha-Lista/
 
 <p align="center">
   <img src="docs/screenshots/login.png" width="240" alt="Tela de login">
