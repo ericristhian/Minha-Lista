@@ -1,9 +1,4 @@
--- =====================================================
--- Aula 10 • Minha Lista • Passos 2 e 3
--- Cole tudo no Dashboard: SQL Editor -> New query -> Run
--- =====================================================
-
--- PASSO 2: tabela items
+-- tabela items
 create table public.items (
   id uuid primary key default gen_random_uuid(),
   name text not null
@@ -13,11 +8,11 @@ create table public.items (
   created_at timestamptz not null default now()
 );
 
--- PASSO 3a: habilitar RLS
+-- habilitar RLS
 alter table public.items
   enable row level security;
 
--- PASSO 3b: privilégios mínimos (GRANT / REVOKE)
+-- privilégios mínimos (GRANT / REVOKE)
 revoke all on table public.items
   from anon, authenticated;
 
@@ -28,7 +23,7 @@ grant select, insert, update, delete
   on table public.items
   to authenticated;
 
--- PASSO 3c: quatro políticas (uma por operação)
+-- quatro políticas (uma por operação)
 create policy "items_select_own"
 on public.items
 for select to authenticated
