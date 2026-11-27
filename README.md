@@ -135,4 +135,4 @@ Cada push na branch `main` dispara o workflow `.github/workflows/deploy-pages.ym
 
 **Eric Cristhian** • Engenharia de Software •
 Disciplina: Desenvolvimento de Dispositivos Móveis
-[LinkedIn](https://linkedin.com/in/ericristhian) • [GitHub](https://github.com/ericristhian)
+[LinkedIn](https://linkedin.com/in/eric-cristhian) • [GitHub](https://github.com/ericristhian)
